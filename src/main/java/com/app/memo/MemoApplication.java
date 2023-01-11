@@ -1,15 +1,14 @@
-package com.memo.app;
+package com.app.memo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class AppApplication {
+public class MemoApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(AppApplication.class, args);
-
-		System.out.println("아아ㅏㅇ");
+		SpringApplication.run(MemoApplication.class, args);
+		System.out.println("잘 됩니다.");
 	}
 
 }

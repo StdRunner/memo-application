@@ -1,10 +1,10 @@
-package com.memo.app;
+package com.app.memo;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class AppApplicationTests {
+class MemoApplicationTests {
 
 	@Test
 	void contextLoads() {
